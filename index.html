@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <title>Curriculum Vitae</title>
 
     <!-- --text: #ffffff;
@@ -39,6 +40,10 @@
     h5 {font-size: 1.333rem; /* 21.28px */}
     small {font-size: 0.750rem; /* 12px */}
     
+    h1{text-align: center}
+
+    html{scroll-behavior: smooth;}
+
     .navbar{
         text-align: center;
         /* background-color: #420e05; */
@@ -48,19 +53,30 @@
         padding-bottom: .5rem;
         border-radius: .5rem;
     }
+
     a{
         text-decoration: none;
         color: #f1a294;
         font-weight:lighter;
-        text-shadow: 2px 2px 10px #260803;
+        transition: text-shadow 0.5s ease-in-out;
+        transition: color 0.2s ease-in-out;
     }
-    h1{text-align: center}
+
+    a:hover{
+    color: #ffffff;
+    text-shadow: 0 0 5px rgb(255, 255, 255), 0 0 10px rgb(255, 0, 0), 0 0 15px #00f, 0 0 20px #00f;
+    }
+
+    .symbol{
+        color: #f1a294;
+    }
+
     .myProfilePic{
         height: 55%;
         width: 100%;
         border-radius: .5rem;
         opacity: 90%;
-    }
+        }
     p{padding-bottom: 2rem; }
     li{padding-bottom: 2rem;}
     .banner{
@@ -76,7 +92,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-blend-mode:multiply
-    }
+        }
     .maincontent{
         background-color: #420e05;
         margin-left: 2rem;
@@ -89,31 +105,32 @@
         border-radius: .5rem;
         max-width: 50rem;
         
-    }
+        }
     hr{border-color: #c56d5e;}
     small{opacity: 50%;}
+
     </style>
 </head>
-<div class="navbar">
-    <a href="#aboutme">• About Me •</a>
-    <a href="#pi">Personal Information •</a>
-    <a href="#eb">Educational Background •</a>
-    <a href="#pi">Personal Information •</a>
-    <a href="#si">Skills and Interest •</a>
-    <a href="#we">Work Experience •</a>
-    <a href="#ce">Certification •</a>
-    <a href="#cr">Character Reference •</a>
+<div class="navbar w3-animate-opacity">
+    <span class="symbol">•</span> <a href="#aboutme">About Me</a> <span class="symbol">•</span>
+    <a href="#pi">Personal Information</a> <span class="symbol">•</span>
+    <a href="#eb">Educational Background</a> <span class="symbol">•</span>
+    <a href="#pi">Personal Information</a> <span class="symbol">•</span>
+    <a href="#si">Skills and Interest</a> <span class="symbol">•</span>
+    <a href="#we">Work Experience</a> <span class="symbol">•</span>
+    <a href="#ce">Certification</a> <span class="symbol">•</span>
+    <a href="#cr">Character Reference</a> <span class="symbol">•</span>
 </div>
-<div class="banner">
-    <h1>Ezra James R. Battung</h1>
+<div class="banner w3-animate-opacity">
+    <h1 class="w3-animate-left w3-animate-opacity">Ezra James R. Battung</h1>
 </div>
 <br>
-<div class="maincontent">
+<div class="maincontent w3-animate-bottom w3-animate-opacity">
 
     <h2 id="aboutme">About Me</h2>
     
     <img src="https://scontent.fdvo5-1.fna.fbcdn.net/v/t39.30808-6/294840789_8529544003726082_4459918838697583342_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGDsIuBRFeXjnNA95Dr2WMFo2ZUtOA54I2jZlS04DngjStZeY-gLzF1e90XRhmX1PP5TF4nUkvSGYSMEIQ9ZSCG&_nc_ohc=Siv_1YOzraUAX_IxfZR&_nc_ht=scontent.fdvo5-1.fna&oh=00_AfA4aI71l15BlDEAaOuFkNLtxCx4ro7piidXPvXM7uKFjg&oe=656A2193"
-    alt="" class="myProfilePic">
+    alt="" class="myProfilePic w3-animate-zoom w3-animate-opacity">
     <p>I am Ezra James Ritardo Battung or "Jambo" as others call me. Full time homebody who loves spending free time on scavenging for those one of a kind indie games. Also loves jamming along to music or tapping along to the beat of fast paced rhythm games.</p>
 
     <hr class="line-break">
